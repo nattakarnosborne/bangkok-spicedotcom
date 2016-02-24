@@ -34,13 +34,15 @@ img {
 	height:auto;
 	max-width:50%;
   width:auto;
-
+  margin-left: auto;
+  margin-right: auto;
 	}
 .owl-item img, .full-img {
   max-width: none;
 	width:100%;
 	}  
 table {
+  padding-top: 10em;
 	background:none repeat scroll 0 0 #fff;
 	border:1px solid #fff;
 	border-collapse:collapse;
@@ -219,7 +221,8 @@ ul.chevron .submenu > a:after, ul.chevron .sub-submenu > a:after,ul.chevron .asi
   padding:10px;
 }
 .margin {margin:0 -0.625em;}
-.line {clear:left;}
+.line {clear:left;
+}
 .line .line {padding:0;}
 .hide-l {display:none;}
 .box {
@@ -488,4 +491,12 @@ nav {
   float:none;
   margin:0 auto;
   display:block;
+}
+.price-center{
+  border: 1px solid #665544;
+  margin:0px auto 0px auto;
+  text-align: center;
+  padding: 10px
+
+
 }
